@@ -1,6 +1,6 @@
 package map;
 
-public class ContaPoupanca implements Agencia{
+public class ContaPoupanca implements Banco{
 	private double taxa;
 	@Override
 	public Conta criaConta() {
